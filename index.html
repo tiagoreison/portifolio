@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tiago Reis - Profissional de TI</title>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Tiago Reis</h1>
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="sobre" class="container">
+        <h2>Sobre Mim</h2>
+        <p>
+          Olá! Sou Tiago Reis, profissional formado em Sistemas de Informação com experiência em desenvolvimento web,
+          análise de sistemas e suporte técnico. Apaixonado por tecnologia e inovação.
+        </p>
+      </section>
+
+      <section id="projetos" class="container">
+        <h2>Projetos</h2>
+        <div class="projetos-lista">
+          <article class="projeto">
+            <h3>GospelFlix</h3>
+            <p>O GospelFlix é uma plataforma de streaming voltada exclusivamente para o público cristão.</p>
+            <a href="https://github.com/tiagoreison/gospelflix" target="_blank">Ver Projeto</a>
+          </article>
+
+          <article class="projeto">
+            <h3>Wikipedia</h3>
+            <p>AA Wikipédia é uma enciclopédia online colaborativa e gratuita, criada e editada por voluntários de todo o mundo.</p>
+            <a href="https://github.com/tiagoreison/wikipedia" target="_blank">Ver Projeto</a>
+          </article>
+
+          <article class="projeto">
+            <h3>Clinica</h3>
+            <p>O projeto da clínica tem como objetivo oferecer atendimentos de saúde de qualidade, com foco no bem-estar, acolhimento e cuidado humanizado dos pacientes.</p>
+            <a href="https://github.com/tiagoreison/clinica" target="_blank">Ver Projeto</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="contato" class="container">
+        <h2>Contato</h2>
+        <form id="formContato">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required />
+
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+
+        <div id="mensagem-status"></div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <p>© 2025 Tiago Reis - Todos os direitos reservados</p>
+        <div class="redes-sociais">
+          <a
+            href="https://www.linkedin.com/in/tiagoreison"
+            target="_blank"
+            aria-label="LinkedIn"
+          >
+
+            <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" width="24" height="24">
+              <path
+                d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.05 7h5v17h-5V7zm7.5 0h4.8v2.33h.07c.67-1.25 2.3-2.57 4.74-2.57 5.08 0 6.02 3.34 6.02 7.67V24h-5v-7.65c0-1.83-.03-4.19-2.56-4.19-2.57 0-2.96 2.01-2.96 4.06V24h-5V7z"
+              />
+            </svg>
+          </a>
+
+          <a
+            href="https://github.com/tiagoreison"
+            target="_blank"
+            aria-label="GitHub"
+          >
+           
+            <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" width="24" height="24">
+              <path
+                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.086-.744.084-.729.084-.729 1.205.084 1.84 1.236 1.84 1.236 1.07 1.835 2.807 1.305 3.492.997.108-.776.418-1.305.76-1.605-2.665-.3-5.466-1.335-5.466-5.93 0-1.31.47-2.38 1.236-3.22-.124-.303-.536-1.52.117-3.176 0 0 1.008-.322 3.3 1.23a11.5 11.5 0 013.003-.403c1.02.005 2.045.138 3.003.403 2.29-1.552 3.296-1.23 3.296-1.23.655 1.657.243 2.874.12 3.176.77.84 1.234 1.91 1.234 3.22 0 4.61-2.803 5.625-5.475 5.922.43.372.823 1.103.823 2.222 0 1.606-.015 2.898-.015 3.293 0 .32.216.694.825.576C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="acao.js"></script>
+  </body>
+</html>
